@@ -1,5 +1,17 @@
 # Bootstrap Beta 4 Boilerplate
-This is a starter template, using the [Bootstrap Beta 4](http://getbootstrap.com/) source files.
+This is a collection of the public starter templates, using the [Bootstrap Beta 4](http://getbootstrap.com/) source files.
+
+### Included Templates (so far):
+- Starter-Template
+- Jumbotron
+- Navbar Examples
+- Navbar Top
+- Navbar Top Fixed
+- Album
+- Carousel
+- Cover Page
+ 
+For simplicity, the template related custom styles have been broken off onto there own matching individual css files. The'll need to be sorted out per individual project.
 
 ### Built In Workflow Tools
 Assets include a dev/production workflow using Gulp.js, for compiling and reloading during development.
