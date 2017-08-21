@@ -52,3 +52,5 @@ Upon project completion, change to a production environment from the terminal:
 $ NODE_ENV=production gulp
 ```
 and Gulp will perform a final compile and minify of all included files for final packaging in the production directory.
+
+Created using the super useful [Dillinger](http://dillinger.io/) online readme tool
