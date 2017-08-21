@@ -39,15 +39,6 @@ sassSources = ['components/sass/bootstrap.scss'];
 htmlSources = [outputDir + '*.html'];
 jsonSources = [outputDir + 'js/*.json'];
 
-// coffeeSources = ['components/coffee/tagline.coffee']
-
-// gulp.task('coffee', function() {
-//   gulp.src(coffeeSources)
-//     .pipe(coffee({bare: true})
-//       .on('error', gutil.log))
-//     .pipe(gulp.dest('components/scripts'))
-// });
-
 gulp.task('js', function() {
   gulp.src(jsSources)
     .pipe(concat('scripts.js'))
@@ -71,7 +62,6 @@ gulp.task('compass', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch(coffeeSources, ['coffee']); // when something changes in the coffeeSources, then execute 'coffee'
   gulp.watch(jsSources, ['js']);
   gulp.watch('components/sass/*.scss', ['compass']);
   gulp.watch('builds/development/*.html', ['html']);
@@ -99,4 +89,4 @@ gulp.task('json', function() {
     .pipe(connect.reload())
 });
 
-gulp.task('default', ['html', 'json', 'coffee', 'js', 'compass', 'connect', 'watch']);
+gulp.task('default', ['html', 'json', 'js', 'compass', 'connect', 'watch']);
