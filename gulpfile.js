@@ -31,8 +31,8 @@ if (env==='development') {
 }
 
 jsSources = [
-  'components/scripts/bootstrap.js',
-  'components/scripts/popper.js',
+  'components/scripts/a_popper.js',
+  'components/scripts/bootstrap.js',  
   'components/scripts/scripts.js'
 ];
 sassSources = ['components/sass/bootstrap.scss'];

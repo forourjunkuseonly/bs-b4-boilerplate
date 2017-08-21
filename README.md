@@ -1,9 +1,10 @@
 # Bootstrap Beta 4 Boilerplate
-This is a starter template using Bootstrap Beta 4 source files.
-### Built In Workflow Tools
-Assets include a dev/production workflow using Gulp.js, for compiling and reloading during developent.
+This is a starter template, using the [Bootstrap Beta 4](http://getbootstrap.com/) source files.
 
-#### Included Dependencies
+### Built In Workflow Tools
+Assets include a dev/production workflow using Gulp.js, for compiling and reloading during development.
+
+#### Included Dependencies:
 | Dependency | More Info | Use |
 | ------ | ------ | ------ |
 | **gulp** | https://gulpjs.com/ | *workflow manager* |
@@ -44,13 +45,19 @@ Start the Gulp process:
 ```sh
 $ gulp
 ```
-During development, Gulp will "watch" for changes in the `components/sass` and `components/scripts` directories. Any change will trigger a recompile and reload of the page.
+During development, Gulp will "watch" for changes in the `components/sass` and `components/scripts` directories. Any update will trigger a recompile and reload of the page.
 
 ### Project Completion
 Upon project completion, change to a production environment from the terminal:
 ```sh
 $ NODE_ENV=production gulp
 ```
-and Gulp will perform a final compile and minify of all included files for final packaging in the production directory.
+... and Gulp will perform a final compile and minify of all included files for final packaging in the production directory.
 
-Created using the super useful [Dillinger](http://dillinger.io/) online readme tool
+---
+
+### Update:
+Trying to concat the popper.js with the bootstrap.js caused the dropdowns to malfunction. Removing it from the compile group and adding it solo. (may end up removing the whole js compile part of this for now)
+
+Created using [Adam-P's Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and the [Dillinger](http://dillinger.io/) online readme preview tool.
+(never did figure out how to insert a successful linebreak)
