@@ -71,5 +71,5 @@ $ NODE_ENV=production gulp
 ### Update:
 Trying to concat the popper.js with the bootstrap.js caused the dropdowns to malfunction. Removing it from the compile group and adding it solo. (may end up removing the whole js compile part of this for now)
 
-Created using [Adam-P's Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and the [Dillinger](http://dillinger.io/) online readme preview tool.
-(never did figure out how to insert a successful linebreak)
+*Created using [Adam-P's Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and the [Dillinger](http://dillinger.io/) online readme preview tool.
+(never did figure out how to insert a successful linebreak)*
